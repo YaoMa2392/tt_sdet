@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YaoMa2392/tt_sdet.git/static/css/main.c915bb86.css",
-    "main.js": "/YaoMa2392/tt_sdet.git/static/js/main.8a489f82.js",
+    "main.js": "/YaoMa2392/tt_sdet.git/static/js/main.ea83e355.js",
     "static/media/uptrillion_cloud.png": "/YaoMa2392/tt_sdet.git/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/live_ios.png": "/YaoMa2392/tt_sdet.git/static/media/live_ios.57aede5e515885fd102a.png",
     "static/media/live_pc.PNG": "/YaoMa2392/tt_sdet.git/static/media/live_pc.d96c1d264a24898b7eff.PNG",
@@ -47,10 +47,10 @@
     "static/media/ttlive_sd.PNG": "/YaoMa2392/tt_sdet.git/static/media/ttlive_sd.97471218589aa3bfd7cd.PNG",
     "index.html": "/YaoMa2392/tt_sdet.git/index.html",
     "main.c915bb86.css.map": "/YaoMa2392/tt_sdet.git/static/css/main.c915bb86.css.map",
-    "main.8a489f82.js.map": "/YaoMa2392/tt_sdet.git/static/js/main.8a489f82.js.map"
+    "main.ea83e355.js.map": "/YaoMa2392/tt_sdet.git/static/js/main.ea83e355.js.map"
   },
   "entrypoints": [
     "static/css/main.c915bb86.css",
-    "static/js/main.8a489f82.js"
+    "static/js/main.ea83e355.js"
   ]
 }
