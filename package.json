@@ -1,7 +1,7 @@
 {
   "name": "alamar-prep",
   "version": "0.1.0",
-  "homepage": "https://yaoma2392.github.io/alamar-pres",
+  "homepage": "https://github.com/YaoMa2392/tt_sdet.git",
   "private": true,
   "dependencies": {
     "@ant-design/charts": "^2.2.6",
