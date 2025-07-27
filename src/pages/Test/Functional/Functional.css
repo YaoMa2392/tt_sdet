@@ -1,0 +1,119 @@
+/* Global Styles */
+.analytics-showcase {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: "Roboto", Sans-serif;
+}
+
+/* Product Display Module */
+.functional-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 180px;*/
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*border: 2px solid red; !* Add red border *!*/
+}
+
+.functional-product-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.functional-description {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.functional-image {
+    width: 600px; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*margin-top: 10px;*/
+    /*margin-left: 200px;  !* Adjust left margin of image *!*/
+    /*margin-right: 20px; !* Adjust right margin of image *!*/
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .functional-image {
+        width: 100%; /* Adapt to small screens */
+        max-width: 300px; /* Limit maximum width */
+    }
+}
+
+.functional-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 40px;*/
+}
+
+.functional-section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 20px;*/
+}
+
+.left-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Control vertical spacing */
+}
+
+.functional-image-right {
+    width: 600px; /* Adjust size to fit layout */
+    height: auto;
+    max-width: 100%;
+    /*max-width: 300px;*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.functional-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 40px;*/
+}
+
+.functional-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 40px;*/
+}
+
+.functional-section6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.functional-section7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}

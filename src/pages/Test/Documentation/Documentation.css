@@ -1,0 +1,157 @@
+/* Global styles */
+.analytics-showcase {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: "Roboto", Sans-serif;
+}
+
+/* Product display module */
+.regression-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 180px;*/
+    /*position: relative; */
+    /*top: 50%;*/
+    /*border: 2px solid red; !* Add a red border *!*/
+}
+
+.regression-product-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.regression-description {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.regression-image {
+    width: 600px; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*margin-top: 10px;*/
+    /*margin-left: 200px;  !* Adjust the left margin of the image *!*/
+    /*margin-right: 20px; !* Adjust the right margin of the image *!*/
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .regression-image {
+        width: 100%; /* Adjust on small screens */
+        max-width: 300px; /* Limit the maximum width */
+    }
+}
+
+.regression-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 40px;*/
+}
+
+.regression-section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 20px;*/
+}
+
+.left-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Control vertical spacing */
+}
+
+.regression-image-right {
+    width: 600px; /* Adjust size to fit the layout */
+    height: auto;
+    max-width: 100%;
+    /*max-width: 300px;*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.regression-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 40px;*/
+}
+
+.regression-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 40px;*/
+}
+
+.regression-section6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.regression-section7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.document-image-bugRep {
+    width: 555px; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*margin-top: 10px;*/
+    /*margin-left: 200px;  !* Adjust the left margin of the image *!*/
+    /*margin-right: 20px; !* Adjust the right margin of the image *!*/
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .document-image-bugRep {
+        width: 100%; /* Adjust on small screens */
+        max-width: 300px; /* Limit the maximum width */
+    }
+}
+
+.document-image-rep {
+    width: 476px; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*margin-top: 10px;*/
+    /*margin-left: 200px;  !* Adjust the left margin of the image *!*/
+    /*margin-right: 20px; !* Adjust the right margin of the image *!*/
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .document-image-rep {
+        width: 100%; /* Adjust on small screens */
+        max-width: 300px; /* Limit the maximum width */
+    }
+}

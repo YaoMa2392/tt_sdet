@@ -1,0 +1,32 @@
+.performance-section4 {
+    /* gap: 40px; */
+    /* margin-top: 40px; */
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 50vh; /* Make the section occupy the full viewport height */
+    padding: 20px; /* Add some padding */
+}
+
+.performance-section4 .motion-div {
+    max-width: 1200px; /* Maximum width, to prevent the table from becoming too wide */
+    width: 100%; /* Width set to 100% */
+}
+
+table {
+    font-size: 1rem;  /* Font size, default 16px */
+    table-layout: fixed;  /* Fixed table layout, prevents column widths from adjusting too flexibly */
+}
+
+thead th {
+    font-size: 1.1rem;  /* Slightly larger font size for the table header */
+}
+
+tbody td {
+    font-size: 1rem;    /* Font size for table content */
+    padding: 1rem;      /* Padding within rows */
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;  /* Hover effect for table rows */
+}

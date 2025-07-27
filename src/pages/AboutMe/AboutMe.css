@@ -1,0 +1,106 @@
+.about-me-container {
+    font-family: "Roboto", Sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.page-content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.aboutme-hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.aboutme-hero-title {
+    font-size: 6em;
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    /*background: linear-gradient(90deg, #FE2C55, #25F4EE); !* 粉到蓝渐变 *!*/
+    background: #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.hero-section > .word-cloud {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0.4;
+    max-width: 80%;
+}
+
+.content-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    position: relative;
+    font-family: -apple-system;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /*background: linear-gradient(90deg, #FE2C55, #25F4EE);*/
+    background: #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+}
+
+.section-text {
+    font-size: 1.2rem;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+/* 可选 Hover 效果 */
+.section-text:hover {
+    color: #25F4EE;
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(37, 244, 238, 0.7);
+}
+
+.fade-section {
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-text {
+        font-size: 1rem;
+    }
+}

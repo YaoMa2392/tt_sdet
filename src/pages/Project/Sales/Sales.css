@@ -1,0 +1,86 @@
+/* Global Styles */
+.sales-page-wrapper {
+    background-color: #66d3fc;
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 0; /* 可调节上下距离 */
+}
+
+.sales-showcase {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: "Roboto", Sans-serif;
+}
+
+
+/* Header Title */
+.sales-header {
+    text-align: center;
+    margin-bottom: 40px;
+    /*border: 2px solid red; !* Add red border *!*/
+}
+
+.sales-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.title-bg-bar {
+    width: 100px;
+    height: 5px;
+    background-color: #FE2C55;
+    margin: 0 auto;
+}
+
+/* Product Display Section */
+.sales-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 60px;
+}
+.sales-product-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.sales-description {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.sales-image {
+    flex: 1;
+    width: 400px; /* Set fixed width here */
+    height: auto;
+    max-width: 100%; /* Ensure it does not exceed parent container */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sales-image {
+    width: 360px; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sales-image {
+        width: 100%; /* Adapt to small screens */
+        max-width: 300px; /* Limit maximum width */
+    }
+}

@@ -1,0 +1,149 @@
+/* Global Styles */
+.cicd-showcase {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: "Roboto", Sans-serif;
+}
+
+/* Header Title */
+.analytics-header {
+    text-align: center;
+    margin-bottom: 40px;
+    /*border: 2px solid red; !* Add a red border *!*/
+}
+
+.analytics-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1C3775;
+    margin-top: 16px;
+}
+
+
+/* Product Display Module */
+.cicd-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 180px;*/
+    /*position: relative; */
+    /*top: 50%;*/
+    /*border: 2px solid red; !* Add a red border *!*/
+}
+
+.cicd-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 20px;*/
+}
+.cicd-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.cicd-section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.test-container-githubaction {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.code-container-githubaction {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.test-code-githubaction {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.test-container-jenkins {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: 600px; /* Fixed height */
+    /*border: 1px solid #ccc; !* Add border *!*/
+    border-radius: 8px;
+    /*background-color: #1e1e1e; !* Use a dark background for better coordination *!*/
+    overflow: hidden; /* Prevent overflow */
+}
+
+.code-container-jenkins {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 100%; /* Fill the entire test-container */
+    display: flex;
+    flex-direction: column;
+}
+
+.test-code-jenkins {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2d2d2d;
+    color: #33FF33;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 540px; /* Limit the height of the code area */
+    overflow: auto; /* Add scrollbars */
+}
+
+.cicd-description {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.cicd-image {
+    width: 360px; /* Set a fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*margin-left: 200px;  !* Adjust left margin of the image *!*/
+    /*margin-right: 20px; !* Adjust right margin of the image *!*/
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cicd-image {
+        width: 100%; /* Fit on smaller screens */
+        max-width: 300px; /* Limit the maximum width */
+    }
+}

@@ -1,0 +1,187 @@
+.live-container {
+    font-family: -apple-system, sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+    /*background: linear-gradient(180deg, #407EC9 0%, #1D3557 100%);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.title-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    /*background: linear-gradient(135deg, #407EC9, #1D3557); !* Gradient Background *!*/
+}
+
+
+.live-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.cloud-icon {
+    width: 300px; /* 根据需要调整图片大小 */
+    height: auto;
+    margin-right: 10px; /* 调整文字和图标之间的间距 */
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* Core Features Section */
+.core-features-section {
+    padding: 50px 20px;
+    /*background: linear-gradient(135deg, #1D3557, #407EC9); !* Gradient Background *!*/
+    text-align: center;
+}
+
+.project-section-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.core-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.core-feature-card {
+    /*background-color: #407EC9;*/
+    padding: 30px;
+    border-radius: 10px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.core-feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.core-feature-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.core-feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.core-feature-description {
+    font-size: 1rem;
+    color: #d1d5db;
+}
+
+/* 标题居中 */
+.center-title {
+    text-align: center;
+}
+
+.live-content-section {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    flex-direction: column;
+    /*background: linear-gradient(135deg, #1D3557, #407EC9); !* Gradient Background *!*/
+}
+
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .project-image-uptrillion {
+        width: 100%; /* 在小屏幕上适应 */
+        max-width: 300px; /* 限制最大宽度 */
+    }
+}
+
+
+.project-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-section-text {
+    font-size: 1.2rem;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* 滚动渐入动画 */
+.fade-section {
+    margin-bottom: 50px;
+}
+
+
+.project-image-ttlivesd {
+    max-width: 100%; /* Ensure the image is responsive */
+    width: 600px;
+    height: auto;    /* Maintain aspect ratio */
+}
+.live-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* 控制文字和图片的间距 */
+    flex-wrap: wrap; /* 小屏幕时自动折行 */
+}
+
+.live-pic-title {
+    font-size: 3.2rem;
+    max-width: 400px;
+    text-align: left;
+    margin-right: 20%;
+}
+
+.live-pic-title-web {
+    font-size: 3.2rem;
+    max-width: 400px;
+    text-align: left;
+    /*margin-left: 20%;*/
+}
+
+.project-image-live-ios {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
+.project-image-live-web {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,224 @@
+/* layout */
+.performance-showcase {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: "Roboto", Sans-serif;
+}
+
+.performance-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 180px;*/
+    /*position: relative; */
+    /*top: 50%;*/
+    /*border: 2px solid red; !* Add red border *!*/
+}
+
+.performance-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    /*margin-top: 20px;*/
+}
+
+.performance-section2 {
+    gap: 40px;
+    margin-top: 260px;
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60vh; /* Make the section occupy the entire viewport height */
+    padding: 20px; /* Add some padding */
+    margin-bottom: 260px;
+}
+.performance-section3 {
+    gap: 40px;
+    margin-top: 200px;
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60vh; /* Make the section occupy the entire viewport height */
+    padding: 20px; /* Add some padding */
+}
+
+
+.performance-section4 {
+    /*gap: 40px;*/
+    margin-top: 10px;
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50vh; /* Make the section occupy the entire viewport height */
+    padding: 20px; /* Add some padding */
+}
+
+.performance-section4 .motion-div {
+    max-width: 1200px; /* Max width to avoid the table being too wide */
+    width: 100%; /* Width is 100% */
+}
+
+
+.performance-section5 {
+    gap: 40px;
+    margin-top: 120px;
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60vh; /* Make the section occupy the entire viewport height */
+    padding: 20px; /* Add some padding */
+}
+
+table {
+    font-size: 1rem;  /* Font size, default is 16px */
+    table-layout: fixed;  /* Fixed table layout to avoid columns being too flexible */
+}
+
+thead th {
+    font-size: 1.2rem;  /* Slightly larger font size for table headers */
+}
+
+tbody td {
+    font-size: 1.1rem;    /* Font size for table content */
+    padding: 1rem;      /* Padding within rows */
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;  /* Hover effect */
+}
+
+.test-container-githubaction {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.code-container-githubaction {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.test-code-githubaction {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.test-container-jenkins {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: 600px; /* Fixed height */
+    /*border: 1px solid #ccc; !* Add border *!*/
+    border-radius: 8px;
+    /*background-color: #1e1e1e; !* Darker background color for better coordination *!*/
+    overflow: hidden; /* Prevent overflow */
+}
+
+.code-container-jenkins {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    height: 100%; /* Make it fill the entire test-container */
+    display: flex;
+    flex-direction: column;
+}
+
+.test-code-jenkins {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2d2d2d;
+    color: #33FF33;
+    padding: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 540px; /* Limit the code area's height */
+    overflow: auto; /* Add scrollbars */
+}
+
+
+.performance-description {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.performance-image {
+    width: 360px; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*margin-left: 200px;  !* Adjust left margin of the image *!*/
+    /*margin-right: 20px; !* Adjust right margin of the image *!*/
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .performance-image {
+        width: 100%; /* Adjust for smaller screens */
+        max-width: 300px; /* Limit the maximum width */
+    }
+}
+
+
+.performance-image-diagram {
+    width: 500px; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /*margin-left: 200px;  !* Adjust left margin of the image *!*/
+    /*margin-right: 20px; !* Adjust right margin of the image *!*/
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .performance-image-diagram {
+        width: 100%; /* Adjust for smaller screens */
+        max-width: 300px; /* Limit the maximum width */
+    }
+}
+
+.api-code {
+    background-color: #f1f1f1;  /* Gray background */
+    padding: 0.8rem;              /* Add padding around the code */
+    border-radius: 5px;         /* Rounded corners */
+    font-family: 'Courier New', Courier, monospace; /* Use monospaced font */
+    font-size: 0.8rem;          /* Set font size */
+    color: #333;                /* Font color */
+    overflow-x: auto;           /* Allow horizontal scrolling for long code */
+    word-wrap: break-word;      /* Auto wrap words */
+}
+
+.regression-image-report {
+    width: 100%; /* Set fixed width */
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-left: auto;  /* Automatically adjust left margin */
+    margin-right: auto; /* Automatically adjust right margin */
+    display: block;     /* Make the image a block element to center it */
+}

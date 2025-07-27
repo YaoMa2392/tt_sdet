@@ -1,0 +1,30 @@
+.titlebar {
+    background: #000000;
+    padding: 60px 0;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.titlebar-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* 和 navbar/footer 保持一致 */
+}
+
+.title {
+    margin: 0;
+    text-align: left;
+    width: 609px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-family: "Roboto", Sans-serif;
+    color: #ffffff;
+}
