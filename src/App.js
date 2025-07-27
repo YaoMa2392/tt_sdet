@@ -23,7 +23,7 @@ import TikTokLIVE from "./pages/TikTok LIVE/TikTokLIVE";
 
 const routes = [
     {
-        path: "/Overview",
+        path: "/tt_sdet",
         element: <Presentation/>,
     },
     {
