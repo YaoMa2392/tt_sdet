@@ -3,8 +3,7 @@ import {motion} from "framer-motion";
 import "./TikTokLIVE.css";
 import web from "../../assets/live_pc.PNG";
 import mobile from "../../assets/live_ios.png";
-import React, {useState} from "react";
-import {Link} from "react-router-dom";
+import React from "react";
 import ttlivesd from "../../assets/ttlive_sd.PNG";
 
 
@@ -23,23 +22,9 @@ const FadeInSection = ({children}: { children: React.ReactNode }) => {
 };
 
 export default function TikTokLIVE() {
-    const [mousePosition, setMousePosition] = useState({x: 0, y: 0});
-
-    // Handle changes in mouse position
-    const handleMouseMove = (e) => {
-        const {clientX: x, clientY: y} = e;
-        setMousePosition({x, y});
-    };
-
-    // Set styles and animation effects for images
-    const imageStyle = {
-        transform: `translate(${(mousePosition.x - window.innerWidth / 2) / 30}px, ${(mousePosition.y - window.innerHeight / 2) / 30}px)`,
-        transition: 'transform 0.1s ease-out', // Add smooth transition effect
-    };
-
     return (
         <div className="live-wrapper">
-            <div className="live-container" onMouseMove={handleMouseMove}>
+            <div className="live-container" >
                 {/* Hero Section */}
                 <section className="title-section">
                     <img
