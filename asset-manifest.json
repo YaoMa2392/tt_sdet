@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tt_sdet/static/css/main.c915bb86.css",
-    "main.js": "/tt_sdet/static/js/main.4f9f7e2f.js",
+    "main.css": "/tt_sdet/static/css/main.5d2726aa.css",
+    "main.js": "/tt_sdet/static/js/main.d955d9db.js",
     "static/media/uptrillion_cloud.png": "/tt_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/live_ios.png": "/tt_sdet/static/media/live_ios.57aede5e515885fd102a.png",
     "static/media/live_pc.PNG": "/tt_sdet/static/media/live_pc.d96c1d264a24898b7eff.PNG",
@@ -46,11 +46,11 @@
     "static/media/uptrillion_d135.jpg": "/tt_sdet/static/media/uptrillion_d135.b11d4ba5262acafa3bfa.jpg",
     "static/media/ttlive_sd.PNG": "/tt_sdet/static/media/ttlive_sd.97471218589aa3bfd7cd.PNG",
     "index.html": "/tt_sdet/index.html",
-    "main.c915bb86.css.map": "/tt_sdet/static/css/main.c915bb86.css.map",
-    "main.4f9f7e2f.js.map": "/tt_sdet/static/js/main.4f9f7e2f.js.map"
+    "main.5d2726aa.css.map": "/tt_sdet/static/css/main.5d2726aa.css.map",
+    "main.d955d9db.js.map": "/tt_sdet/static/js/main.d955d9db.js.map"
   },
   "entrypoints": [
-    "static/css/main.c915bb86.css",
-    "static/js/main.4f9f7e2f.js"
+    "static/css/main.5d2726aa.css",
+    "static/js/main.d955d9db.js"
   ]
 }
