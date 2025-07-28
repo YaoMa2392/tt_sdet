@@ -6,7 +6,7 @@ import payment2 from "../../../assets/uptrillion_payment2.png";
 import performanceExcuteDiagram from "../../../assets/performanceExcuteDiagram.png";
 import React, {useEffect, useState} from "react";
 import TitleBar from "../../../components/TitleBar/TitleBar";
-import ChallengeTable from "../../../components/ChallengeTable/ChallengeTable";
+import Table from "../../../components/Tables/Table";
 import Divider from "../../../components/Divider/Divider";
 import JMeter from "../../../assets/JMeterReport.png"
 
@@ -35,7 +35,8 @@ export default function Performance() {
         };
     }, []);
 
-    const challenges = [
+    const headers = ['ID', 'Challenge', 'Solution', 'Result'];
+    const data = [
         {
             id: 1,
             challenge: "Payment API Bottlenecks",
@@ -195,7 +196,7 @@ export default function Performance() {
                 <Divider/>
 
                 <section className="performance-section4">
-                    <ChallengeTable challenges={challenges}/>
+                    <Table data={data} headers={headers}/>
                 </section>
             </motion.div>
         </div>

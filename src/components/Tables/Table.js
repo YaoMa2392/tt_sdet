@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const ChallengeTable = ({ challenges }) => {
+const Table = ({ data, headers }) => {
     return (
         <section className="performance-section4">
             <motion.div
@@ -12,14 +12,18 @@ const ChallengeTable = ({ challenges }) => {
                 <table className="min-w-full border border-gray-300">
                     <thead className="bg-gradient-to-r from-blue-500 via-teal-500 to-green-500 text-white">
                     <tr>
-                        <th className="text-left p-6 text-lg font-semibold">ID</th>
-                        <th className="text-left p-6 text-lg font-semibold">Challenge</th>
-                        <th className="text-left p-6 text-lg font-semibold">Solution</th>
-                        <th className="text-left p-6 text-lg font-semibold">Result</th>
+                        {headers.map((header, idx) => (
+                            <th
+                                key={idx}
+                                className="text-left p-6 text-lg font-semibold"
+                            >
+                                {header}
+                            </th>
+                        ))}
                     </tr>
                     </thead>
                     <tbody>
-                    {challenges.map((item, index) => (
+                    {data.map((item, index) => (
                         <motion.tr
                             key={index}
                             whileHover={{
@@ -43,4 +47,4 @@ const ChallengeTable = ({ challenges }) => {
     );
 };
 
-export default ChallengeTable;
+export default Table;

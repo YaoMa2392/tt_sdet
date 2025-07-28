@@ -1,12 +1,10 @@
 .performance-section4 {
-    /* gap: 40px; */
-    /* margin-top: 40px; */
-    display: flex; /* Use Flexbox layout */
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    height: 50vh; /* Make the section occupy the full viewport height */
-    padding: 20px; /* Add some padding */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
+
 
 .performance-section4 .motion-div {
     max-width: 1200px; /* Maximum width, to prevent the table from becoming too wide */

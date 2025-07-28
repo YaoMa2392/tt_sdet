@@ -20,6 +20,7 @@ import Performance from "./pages/Test/Performance/Performance";
 import QA from "./pages/Q&A/QA";
 import Presentation from "./pages/Presentation/Presentation";
 import TikTokLIVE from "./pages/TikTok LIVE/TikTokLIVE";
+import LivePerformance from "./pages/TikTok LIVE/LivePerformance/LivePerformance";
 
 const routes = [
     {
@@ -81,6 +82,10 @@ const routes = [
     {
         path: "/TikTokLIVE",
         element: <TikTokLIVE/>,
+    },
+    {
+        path: "/TikTokLIVE/LivePerformance",
+        element: <LivePerformance/>,
     },
     {
         path: "/QA",

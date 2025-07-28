@@ -11,7 +11,7 @@ import regressionInventoryPlan from "../../../assets/regression_inventory_plan.P
 import React, {useEffect, useState} from "react";
 import TitleBar from "../../../components/TitleBar/TitleBar";
 import Divider from "../../../components/Divider/Divider";
-import ChallengeTable from "../../../components/ChallengeTable/ChallengeTable";
+import Table from "../../../components/Tables/Table";
 
 export default function Regression() {
     const [inView, setInView] = useState(false);
@@ -65,7 +65,8 @@ public void testXxxBtn() {
 
     `;
 
-    const challenges = [
+    const headers = ['ID', 'Challenge', 'Solution', 'Result'];
+    const data = [
         {
             id: 1,
             challenge: "Manual Regression Testing is Time-Consuming and Error-Prone",
@@ -107,7 +108,7 @@ public void testXxxBtn() {
 
     return (
         <div>
-            <TitleBar title="Regression Testing"/>
+            <TitleBar title="Regression Testing [Automation]"/>
             <motion.div
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}
@@ -272,7 +273,7 @@ public void testXxxBtn() {
                 <Divider />
 
                 <section className="regression-section7">
-                    <ChallengeTable challenges={challenges} />
+                    <Table data={data} headers={headers}/>
                 </section>
             </motion.div>
         </div>

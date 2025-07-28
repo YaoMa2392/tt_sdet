@@ -4,7 +4,7 @@ import "./CICD.css";
 import cicdDiagram from "../../../assets/cicdDiagram.png"
 import React, {useEffect, useState} from "react";
 import TitleBar from "../../../components/TitleBar/TitleBar";
-import ChallengeTable from "../../../components/ChallengeTable/ChallengeTable";
+import Table from "../../../components/Tables/Table";
 import Divider from "../../../components/Divider/Divider";
 
 export default function CICD() {
@@ -118,7 +118,8 @@ export default function CICD() {
     }
 }`;
 
-    const challenges = [
+    const headers = ['ID', 'Challenge', 'Solution', 'Result'];
+    const data = [
         {
             id: 1,
             challenge: "Flaky Tests",
@@ -291,7 +292,7 @@ export default function CICD() {
                 <Divider />
 
                 <section className="cicd-section4">
-                    <ChallengeTable challenges={challenges}/>
+                    <Table data={data} headers={headers}/>
                 </section>
             </motion.div>
         </div>

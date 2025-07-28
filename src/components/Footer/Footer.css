@@ -1,3 +1,4 @@
+
 .footer {
   background: black;
   color: #ffffffe6;
@@ -7,6 +8,7 @@
   opacity: 0;
   animation: fadeIn 2s forwards;
   font-family: "Roboto", Sans-serif;
+  flex: 1;
 }
 
 

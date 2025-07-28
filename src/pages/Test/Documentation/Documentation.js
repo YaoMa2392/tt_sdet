@@ -10,7 +10,7 @@ import documentReport2 from "../../../assets/Document_report2.PNG";
 import React, {useEffect, useState} from "react";
 import TitleBar from "../../../components/TitleBar/TitleBar";
 import Divider from "../../../components/Divider/Divider";
-import ChallengeTable from "../../../components/ChallengeTable/ChallengeTable";
+import Table from "../../../components/Tables/Table";
 
 export default function Documentation() {
     const [inView, setInView] = useState(false);
@@ -37,7 +37,8 @@ export default function Documentation() {
         };
     }, []);
 
-    const challenges = [
+    const headers = ['ID', 'Challenge', 'Solution', 'Result'];
+    const data = [
         {
             id: 1,
             challenge: "Inadequate Test Documentation Leading to Misunderstandings",
@@ -147,7 +148,7 @@ export default function Documentation() {
                 <Divider />
 
                 <section className="regression-section7">
-                    <ChallengeTable challenges={challenges} />
+                    <Table data={data} headers={headers}/>
                 </section>
             </motion.div>
         </div>

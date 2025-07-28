@@ -4,36 +4,15 @@ import "./Functional.css";
 import React, {useEffect, useState} from "react";
 import TitleBar from "../../../components/TitleBar/TitleBar";
 import Divider from "../../../components/Divider/Divider";
-import ChallengeTable from "../../../components/ChallengeTable/ChallengeTable";
+import Table from "../../../components/Tables/Table";
 import sales from "../../../assets/uptrillion_sales1.png";
 import sales2 from "../../../assets/uptrillion_sales2.png";
 
 export default function Functional() {
     const [inView, setInView] = useState(false);
 
-    const handleScroll = (entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                setInView(true);
-                observer.unobserve(entry.target);  // Stop observing once in view
-            }
-        });
-    };
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(handleScroll, {
-            threshold: 0.5,  // When 50% of the element is visible
-        });
-
-        const images = document.querySelectorAll('.functional-product-section img');
-        images.forEach(image => observer.observe(image));
-
-        return () => {
-            images.forEach(image => observer.unobserve(image)); // Clean up observer
-        };
-    }, []);
-
-    const challenges = [
+    const headers = ['ID', 'Challenge', 'Solution', 'Result'];
+    const data = [
         {
             id: 1,
             challenge: "Incomplete Test Coverage Due to Time Constraints",
@@ -66,6 +45,27 @@ export default function Functional() {
         }
     ];
 
+    const handleScroll = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                setInView(true);
+                observer.unobserve(entry.target);  // Stop observing once in view
+            }
+        });
+    };
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(handleScroll, {
+            threshold: 0.5,  // When 50% of the element is visible
+        });
+
+        const images = document.querySelectorAll('.functional-product-section img');
+        images.forEach(image => observer.observe(image));
+
+        return () => {
+            images.forEach(image => observer.unobserve(image)); // Clean up observer
+        };
+    }, []);
 
     return (
         <div>
@@ -129,9 +129,10 @@ export default function Functional() {
                 <Divider/>
 
                 <section className="functional-section7">
-                    <ChallengeTable challenges={challenges}/>
+                    <Table data = {data} headers={headers}/>
                 </section>
             </motion.div>
         </div>
     );
 }
+
