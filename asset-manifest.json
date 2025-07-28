@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tt_sdet/static/css/main.ee7b3d9b.css",
-    "main.js": "/tt_sdet/static/js/main.6b111d47.js",
+    "main.css": "/tt_sdet/static/css/main.0842d786.css",
+    "main.js": "/tt_sdet/static/js/main.91258880.js",
     "static/media/uptrillion_cloud.png": "/tt_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/live_ios.png": "/tt_sdet/static/media/live_ios.57aede5e515885fd102a.png",
     "static/media/live_pc.PNG": "/tt_sdet/static/media/live_pc.d96c1d264a24898b7eff.PNG",
@@ -32,7 +32,6 @@
     "static/media/Test Plan0.png": "/tt_sdet/static/media/Test Plan0.ef9d3ce8bcae1411089d.png",
     "static/media/testprotocolDiagram.png": "/tt_sdet/static/media/testprotocolDiagram.49ea4c74a75bb2862b38.png",
     "static/media/testmethodDiagram.png": "/tt_sdet/static/media/testmethodDiagram.4f4ce76d09da19f6bbe9.png",
-    "static/media/presentationDiagram.png": "/tt_sdet/static/media/presentationDiagram.eedf32762c421d1d3801.png",
     "static/media/Document_report1.PNG": "/tt_sdet/static/media/Document_report1.b5c9b83d8289f919b43c.PNG",
     "static/media/uptrillion_payment.png": "/tt_sdet/static/media/uptrillion_payment.f232c398ed6f51508829.png",
     "static/media/uptrillion_sales3.png": "/tt_sdet/static/media/uptrillion_sales3.e1f46a3f7256838c6091.png",
@@ -48,11 +47,11 @@
     "static/media/ttlive_sd.PNG": "/tt_sdet/static/media/ttlive_sd.97471218589aa3bfd7cd.PNG",
     "static/media/logo-android.png": "/tt_sdet/static/media/logo-android.e151e0c4ac0d437659d8.png",
     "index.html": "/tt_sdet/index.html",
-    "main.ee7b3d9b.css.map": "/tt_sdet/static/css/main.ee7b3d9b.css.map",
-    "main.6b111d47.js.map": "/tt_sdet/static/js/main.6b111d47.js.map"
+    "main.0842d786.css.map": "/tt_sdet/static/css/main.0842d786.css.map",
+    "main.91258880.js.map": "/tt_sdet/static/js/main.91258880.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee7b3d9b.css",
-    "static/js/main.6b111d47.js"
+    "static/css/main.0842d786.css",
+    "static/js/main.91258880.js"
   ]
 }
