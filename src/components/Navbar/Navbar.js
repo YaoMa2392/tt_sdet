@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbar-container">
                 {/* 左侧 Logo */}
-                <Link to="/overview" className="navbar-logo">
+                <Link to="/tt_sdet" className="navbar-logo">
                     <img
                         src="https://lf16-recruit-overseas-cdn-sg-sign.larksuite.com/obj/recruit-overseas-flie-sg/32961959/495010931/1519231217/7e84759d5008072e31da9a2402accc9122587086-7621x2341.png?x-expires=1755046808&x-signature=bTEppoDalw6swFAls2%2FvUhkVNNE%3D"
                         alt="logo"

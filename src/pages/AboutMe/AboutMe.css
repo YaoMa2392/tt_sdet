@@ -1,7 +1,7 @@
 .about-me-container {
     font-family: "Roboto", Sans-serif;
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #000000;
     min-height: 100vh;
 }
 
@@ -29,7 +29,7 @@
     top: 30%;
     left: 36%;
     /*background: linear-gradient(90deg, #FE2C55, #25F4EE); !* 粉到蓝渐变 *!*/
-    background: #000000;
+    background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -58,7 +58,7 @@
     font-weight: bold;
     margin-bottom: 10px;
     /*background: linear-gradient(90deg, #FE2C55, #25F4EE);*/
-    background: #000000;
+    background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: scale(1.1);
@@ -66,15 +66,17 @@
 
 .section-text {
     font-size: 1.2rem;
-    color: #000000;
+    color: #FFFFFF;
     transition: color 0.3s ease;
 }
 
 /* 可选 Hover 效果 */
 .section-text:hover {
-    color: #25F4EE;
+    cursor: pointer;
+    color: #FE2C55;
     transform: scale(1.05);
-    text-shadow: 0 0 10px rgba(37, 244, 238, 0.7);
+    /*text-shadow: 0 0 10px rgba(37, 244, 238, 0.7);*/
+    /*text-shadow: 0 0 10px rgba(254, 44, 85, 0.5);*/
 }
 
 .fade-section {
@@ -103,4 +105,54 @@
     .section-text {
         font-size: 1rem;
     }
+}
+
+.project-logo-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/*.project-logo-row img {*/
+/*    height: 50px;        !* 统一高度 *!*/
+/*    width: auto;         !* 自动按比例缩放 *!*/
+/*    object-fit: contain; !* 防止拉伸变形 *!*/
+/*    max-width: 100%;     !* 避免超出容器 *!*/
+/*    transition: transform 0.2s ease-in-out;*/
+/*}*/
+
+.logo-front {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-paxstore {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-uptrillion {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+.logo-tsys{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-poslink{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.project-logo-row img:hover {
+    transform: scale(1.05); /* hover 放大效果，可选 */
 }

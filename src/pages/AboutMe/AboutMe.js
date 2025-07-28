@@ -3,6 +3,9 @@ import React from "react";
 import {motion} from "framer-motion";
 import WordCloud from "../../components/WordCloud/WordCloud";
 import "./AboutMe.css";
+import poslink from "../../assets/logo-poslink.PNG";
+import android from "../../assets/logo-android.png";
+import odoo from "../../assets/logo-odoo.png";
 
 const FadeInSection = ({children}: { children: React.ReactNode }) => {
     return (
@@ -35,74 +38,100 @@ const AboutMe = () => {
                     <WordCloud/>
                 </section>
 
-                {/* About Me Details */}
                 <section className="content-section">
+                    <FadeInSection>
+                        <h2 className="section-title">Projects</h2>
+                        <div className="project-logo-row">
+                            <img
+                                className="logo-uptrillion"
+                                src="https://www.uptrillion.com/wp-content/uploads/2023/06/uptrillion_logo_5.3.23_Gannon-16.png"
+                                alt="UpTrillion"
+                            />
+                            <img
+                                className="logo-poslink"
+                                src={poslink}
+                                alt="POSLink"
+                            />
+                            <img
+                                className="logo-tsys"
+                                src="https://www.tsys.com/-/media/project/gpn/tsys/tsys/site-logo/logoprimary.svg?rev=6a776fcd04694486b1e078229c8f33ee"
+                                alt="TSYS"
+                            />
+                            <img
+                                className="logo-paxstore"
+                                src="https://faqs.pax.us/wp-content/uploads/2021/07/cropped-PAXSTORE-Logo-North-America-Opt-1.png"
+                                alt="PAXSTORE"
+                            />
+                            <img
+                                className="logo-front"
+                                src="https://lirp.cdn-website.com/d09ffce6/dms3rep/multi/opt/front+txt+logo+purple-192w.png"
+                                alt="Front"
+                            />
+                            <img
+                                className="logo-front"
+                                src={android}
+                                alt="Android"
+                            />
+                            <img
+                                className="logo-front"
+                                src={odoo}
+                                alt="Odoo"
+                            />
+                        </div>
+                    </FadeInSection>
                     <FadeInSection>
                         <h2 className="section-title">Key Achievements</h2>
 
                         <p className="section-text">
-                            <strong>90% Test Time Reduction:</strong> Automated regression testing, reducing time from 4-5 days to 3-4 hours.
+                            <strong>90% Test Time Reduction:</strong> Automated regression and integration tests across modules, reducing validation time from 4–5 days to 4- hours.
                         </p>
                         <p className="section-text">
-                            <strong>30% Lower Bug Rate:</strong> Delivered projects with a bug rate 30% lower than the team average by identifying root causes.
+                            <strong>Cross-Team Platform Contributor:</strong> Built shared test utilities and workflows to support backend/frontend pipelines and improve coverage.
                         </p>
                         <p className="section-text">
-                            <strong>50+ Team Members Trained:</strong> Led end-to-end testing for multiple projects, while training 50+ department members during rollouts.
+                            <strong>Improved Release Stability:</strong> Led validation and CI checks for QA-UAT-PROD app releases; ensured zero-blocker rollout for 12+ versions.
                         </p>
                         <p className="section-text">
-                            <strong>Improved Feature Alignment:</strong> Collaborated closely with PMs and Developers to refine FRDs, make development processes smoother.
-                        </p>
-                    </FadeInSection>
-
-                    <FadeInSection>
-                        <h2 className="section-title">Key Strengths & Soft Skills</h2>
-                        <p className="section-text">
-                            <strong>Problem Solver:</strong> Strong problem-solving abilities to tackle complex
-                            challenges.
-                        </p>
-                        <p className="section-text">
-                            <strong>Creative:</strong> Innovative thinking to generate new ideas and solutions.
-                        </p>
-                        <p className="section-text">
-                            <strong>Detail-Focused:</strong> Attention to detail ensures accuracy and quality in every
-                            task.
-                        </p>
-                        <p className="section-text">
-                            <strong>Communication:</strong> Excellent verbal and written communication skills for
-                            effective collaboration.
-                        </p>
-                        <p className="section-text">
-                            <strong>Teamwork:</strong> Collaborative and supportive team player to achieve common goals.
+                            <strong>Trained 50+ Team Members:</strong> Led test reviews, onboarding, and debugging sessions across global QA/dev teams.
                         </p>
                     </FadeInSection>
 
                     <FadeInSection>
                         <h2 className="section-title">Software Test Engineer</h2>
                         <p className="section-text">
-                            <strong>Experience:</strong> 2 years as an SDE Tester, 1 year as an SDE.
+                            <strong>Experience:</strong> 2 YOE as SDET, 1 YOE as SDE; M.S. in CS @ NYU Courant.
                         </p>
                         <p className="section-text">
-                            <strong>Master's Degree:</strong> MSCS @ NYU Courant Institute of Mathematical Sciences.
+                            <strong>Test Coverage:</strong> Functional, Regression, Integration, Smoke, Performance, Recovery, Security.
                         </p>
                         <p className="section-text">
-                            <strong>Test Expertise:</strong> Smoke, Functional, Regression, Integration, Performance,
-                            API, Security, Recovery.
+                            <strong>Programming & Tools:</strong> Python, Java, Selenium, Pytest, TestNG, JUnit, Jenkins, GitHub Actions.
                         </p>
                         <p className="section-text">
-                            <strong>Automation Tools:</strong> Python, Java, R, Selenium, Pytest, OpenCV, Cypress,
-                            TestNG, JUnit.
+                            <strong>System Experience:</strong> Familiar with REST APIs, microservices, Kafka, Redis, Docker, Kubernetes.
                         </p>
                         <p className="section-text">
-                            <strong>Documentation Skills:</strong> Test Plans, Test Cases, Bug Tickets, Test Reports,
-                            PRDs, FRDs.
-                        </p>
-                        <p className="section-text">
-                            <strong>CI/CD & Tools:</strong> Jira, Confluence, JMeter, Jenkins, GitHub Actions.
+                            <strong>CI/CD & Collaboration:</strong> Jira, Confluence, PR reviews, release validation & feedback loop.
                         </p>
                     </FadeInSection>
 
-
+                    <FadeInSection>
+                        <h2 className="section-title">Key Strengths & Soft Skills</h2>
+                        <p className="section-text">
+                            <strong>Systematic Thinker:</strong> Proficient in designing E2E test strategies and driving quality at scale.
+                        </p>
+                        <p className="section-text">
+                            <strong>Ownership & Delivery:</strong> Able to independently drive testing for complex features, manage risks, and meet release deadlines.
+                        </p>
+                        <p className="section-text">
+                            <strong>Tool Builder:</strong> Experienced in creating internal tools to enhance productivity of QA/Dev teams.
+                        </p>
+                        <p className="section-text">
+                            <strong>Effective Collaborator:</strong> Strong communication skills across time zones, functions, and cultures.
+                        </p>
+                    </FadeInSection>
                 </section>
+
             </div>
         </div>
     );
