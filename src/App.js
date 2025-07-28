@@ -18,14 +18,14 @@ import Footer from "./components/Footer/Footer";
 import Documentation from "./pages/Test/Documentation/Documentation";
 import Performance from "./pages/Test/Performance/Performance";
 import QA from "./pages/Q&A/QA";
-import Presentation from "./pages/Presentation/Presentation";
 import TikTokLIVE from "./pages/TikTok LIVE/TikTokLIVE";
 import LivePerformance from "./pages/TikTok LIVE/LivePerformance/LivePerformance";
 
 const routes = [
     {
         path: "/tt_sdet",
-        element: <Presentation/>,
+        // element: <Presentation/>,
+        element: <AboutMe/>,
     },
     {
         path: "/AboutMe",

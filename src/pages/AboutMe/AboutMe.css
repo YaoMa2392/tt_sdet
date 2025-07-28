@@ -116,13 +116,12 @@
     padding: 20px 0;
 }
 
-/*.project-logo-row img {*/
-/*    height: 50px;        !* 统一高度 *!*/
-/*    width: auto;         !* 自动按比例缩放 *!*/
-/*    object-fit: contain; !* 防止拉伸变形 *!*/
-/*    max-width: 100%;     !* 避免超出容器 *!*/
-/*    transition: transform 0.2s ease-in-out;*/
-/*}*/
+.title-bg-bar {
+    width: 100px;
+    height: 5px;
+    background-color: #FE2C55;
+    margin: 0 auto;
+}
 
 .logo-front {
     height: 40px;

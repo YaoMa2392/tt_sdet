@@ -34,6 +34,7 @@ const AboutMe = () => {
                         className="aboutme-hero-title"
                     >
                         Yao Ma
+                        <div className="title-bg-bar"></div>
                     </motion.h1>
                     <WordCloud/>
                 </section>
