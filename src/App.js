@@ -19,7 +19,7 @@ import Documentation from "./pages/Test/Documentation/Documentation";
 import Performance from "./pages/Test/Performance/Performance";
 import QA from "./pages/Q&A/QA";
 import TikTokLIVE from "./pages/TikTok LIVE/TikTokLIVE";
-import LivePerformance from "./pages/TikTok LIVE/LivePerformance/LivePerformance";
+import HighConcurrency from "./pages/TikTok LIVE/LivePerformance/HighConcurrency";
 
 const routes = [
     {
@@ -84,8 +84,8 @@ const routes = [
         element: <TikTokLIVE/>,
     },
     {
-        path: "/TikTokLIVE/LivePerformance",
-        element: <LivePerformance/>,
+        path: "/TikTokLIVE/HighConcurrency",
+        element: <HighConcurrency/>,
     },
     {
         path: "/QA",

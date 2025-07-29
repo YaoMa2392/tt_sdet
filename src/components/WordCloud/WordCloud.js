@@ -23,8 +23,8 @@ const words = [
     { text: "Analytical Thinking", value: 43 },
     { text: "Solution-oriented", value: 47 },
     { text: "End-to-End Ownership", value: 44 },
-    { text: "Kafka", value: 40 },
-    { text: "Docker & K8s", value: 40 },
+    // { text: "Kafka", value: 40 },
+    // { text: "Java", value: 40 },
     { text: "Scalability", value: 38 }
 ];
 

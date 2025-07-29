@@ -101,7 +101,7 @@ export default function Project() {
             {/* Project Details */}
             <section className="content-section">
                 <FadeInSection>
-                    <h2 className="project-section-title center-title">System Architecture Overview for Uptrillion</h2>
+                    <h2 className="project-section-title center-title">Simplified System Architecture Overview for Uptrillion</h2>
                 </FadeInSection>
 
                 <div className="project-image-container-testTpes">

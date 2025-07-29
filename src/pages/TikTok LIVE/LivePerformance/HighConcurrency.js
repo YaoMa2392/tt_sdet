@@ -1,15 +1,11 @@
 /* eslint-disable no-unused-vars */
 import {motion} from "framer-motion";
-import "./LivePerformance.css";
+import "./HighConcurrency.css";
 import React, {useEffect, useState} from "react";
 import TitleBar from "../../../components/TitleBar/TitleBar";
-import Divider from "../../../components/Divider/Divider";
-import Table from "../../../components/Tables/Table";
-import sales from "../../../assets/uptrillion_sales1.png";
-import sales2 from "../../../assets/uptrillion_sales2.png";
 import FeatureGrid from "../../../components/FeatureGrid/FeatureGrid";
 
-export default function LivePerformance() {
+export default function HighConcurrency() {
     const [inView, setInView] = useState(false);
 
     const handleScroll = (entries, observer) => {
@@ -137,7 +133,7 @@ export default function LivePerformance() {
 
     return (
         <div>
-            <TitleBar title="LIVE Performance Testing - High Concurrency"/>
+            <TitleBar title="High Concurrency @ TikTok LIVE"/>
             <motion.div
                 initial={{opacity: 0}}
                 animate={{opacity: 1}}

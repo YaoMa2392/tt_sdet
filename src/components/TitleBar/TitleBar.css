@@ -27,4 +27,6 @@
     letter-spacing: -0.02em;
     font-family: "Roboto", Sans-serif;
     color: #ffffff;
+    white-space: nowrap;
+
 }

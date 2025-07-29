@@ -4,8 +4,10 @@ import {motion} from "framer-motion";
 import WordCloud from "../../components/WordCloud/WordCloud";
 import "./AboutMe.css";
 import poslink from "../../assets/logo-poslink.PNG";
+import posket from "../../assets/POSKet.PNG";
 import android from "../../assets/logo-android.png";
 import odoo from "../../assets/logo-odoo.png";
+import broadpos from "../../assets/logo-broadpos.PNG";
 
 const FadeInSection = ({children}: { children: React.ReactNode }) => {
     return (
@@ -41,7 +43,8 @@ const AboutMe = () => {
 
                 <section className="content-section">
                     <FadeInSection>
-                        <h2 className="section-title">Projects</h2>
+                        <h2 className="section-title">Selected Projects
+                        </h2>
                         <div className="project-logo-row">
                             <img
                                 className="logo-uptrillion"
@@ -49,37 +52,67 @@ const AboutMe = () => {
                                 alt="UpTrillion"
                             />
                             <img
-                                className="logo-poslink"
+                                className="logo-50"
+                                src={posket}
+                                alt="POSket"
+                            />
+                            <img
+                                className="logo-40"
                                 src={poslink}
                                 alt="POSLink"
                             />
+                            {/*<img*/}
+                            {/*    className="logo-40"*/}
+                            {/*    src={broadpos}*/}
+                            {/*    alt="broadpos"*/}
+                            {/*/>*/}
                             <img
-                                className="logo-tsys"
+                                className="logo-40"
                                 src="https://www.tsys.com/-/media/project/gpn/tsys/tsys/site-logo/logoprimary.svg?rev=6a776fcd04694486b1e078229c8f33ee"
                                 alt="TSYS"
                             />
                             <img
-                                className="logo-paxstore"
+                                className="logo-40"
                                 src="https://faqs.pax.us/wp-content/uploads/2021/07/cropped-PAXSTORE-Logo-North-America-Opt-1.png"
                                 alt="PAXSTORE"
                             />
                             <img
-                                className="logo-front"
+                                className="logo-40"
                                 src="https://lirp.cdn-website.com/d09ffce6/dms3rep/multi/opt/front+txt+logo+purple-192w.png"
                                 alt="Front"
                             />
                             <img
-                                className="logo-front"
+                                className="logo-40"
                                 src={android}
                                 alt="Android"
                             />
                             <img
-                                className="logo-front"
+                                className="logo-40"
                                 src={odoo}
                                 alt="Odoo"
                             />
                         </div>
                     </FadeInSection>
+
+                    <FadeInSection>
+                        <h2 className="section-title">Software Test Engineer</h2>
+                        <p className="section-text">
+                            <strong>Experience:</strong> 2 YOE as SDET, 1 YOE as SDE; M.S. in CS @ NYU Courant.
+                        </p>
+                        <p className="section-text">
+                            <strong>Test Skills:</strong> Functional, Automation Frameworks, Performance, API.
+                        </p>
+                        <p className="section-text">
+                            <strong>Programming & Tools:</strong> Java, Python, Java, Selenium, Pytest, TestNG, JUnit, Jenkins, GitHub Actions.
+                        </p>
+                        <p className="section-text">
+                            <strong>System Experience:</strong> REST APIs, microservices, Redis, Kafka, Docker, Kubernetes.
+                        </p>
+                        <p className="section-text">
+                            <strong>CI/CD & Collaboration:</strong> Jira, Confluence, PR reviews, release validation & feedback loop.
+                        </p>
+                    </FadeInSection>
+
                     <FadeInSection>
                         <h2 className="section-title">Key Achievements</h2>
 
@@ -94,25 +127,6 @@ const AboutMe = () => {
                         </p>
                         <p className="section-text">
                             <strong>Trained 50+ Team Members:</strong> Led test reviews, onboarding, and debugging sessions across global QA/dev teams.
-                        </p>
-                    </FadeInSection>
-
-                    <FadeInSection>
-                        <h2 className="section-title">Software Test Engineer</h2>
-                        <p className="section-text">
-                            <strong>Experience:</strong> 2 YOE as SDET, 1 YOE as SDE; M.S. in CS @ NYU Courant.
-                        </p>
-                        <p className="section-text">
-                            <strong>Test Coverage:</strong> Functional, Regression, Integration, Smoke, Performance, Recovery, Security.
-                        </p>
-                        <p className="section-text">
-                            <strong>Programming & Tools:</strong> Python, Java, Selenium, Pytest, TestNG, JUnit, Jenkins, GitHub Actions.
-                        </p>
-                        <p className="section-text">
-                            <strong>System Experience:</strong> Familiar with REST APIs, microservices, Kafka, Redis, Docker, Kubernetes.
-                        </p>
-                        <p className="section-text">
-                            <strong>CI/CD & Collaboration:</strong> Jira, Confluence, PR reviews, release validation & feedback loop.
                         </p>
                     </FadeInSection>
 

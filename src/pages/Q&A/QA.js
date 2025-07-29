@@ -8,7 +8,7 @@ const words = "Feel free to ask any questions!".split(' ');
 
 const GradientBackground = styled.div`
   background: #66d3fc;
-  height: 62vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -72,7 +72,7 @@
 
 /* 可选 Hover 效果 */
 .section-text:hover {
-    cursor: pointer;
+    cursor: default;
     color: #FE2C55;
     transform: scale(1.05);
     /*text-shadow: 0 0 10px rgba(37, 244, 238, 0.7);*/
@@ -123,35 +123,24 @@
     margin: 0 auto;
 }
 
-.logo-front {
-    height: 40px;
-    width: auto;
-    object-fit: contain;
-}
-
-.logo-paxstore {
-    height: 42px;
-    width: auto;
-    object-fit: contain;
-}
-
 .logo-uptrillion {
     height: 60px;
     width: auto;
     object-fit: contain;
 }
-.logo-tsys{
+
+.logo-50{
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+.logo-40{
     height: 40px;
     width: auto;
     object-fit: contain;
 }
 
-.logo-poslink{
-    height: 40px;
-    width: auto;
-    object-fit: contain;
-}
 
 .project-logo-row img:hover {
-    transform: scale(1.05); /* hover 放大效果，可选 */
+    transform: scale(1.1);
 }

@@ -56,23 +56,23 @@ const Navbar = () => {
                         )}
                     </div>
 
-                    <div
-                        className="dropdown"
-                        onMouseEnter={() => setTestMenuOpen(true)}
-                        onMouseLeave={() => setTestMenuOpen(false)}
-                    >
-                        <Link to="/TikTokLIVE" className="dropdown-title">TikTok LIVE</Link>
-                        {testMenuOpen && (
-                            <div className="dropdown-menu">
-                                <Link to="/TikTokLIVE/LivePerformance">Performance Testing</Link>
-                                {/*<Link to="/TikTokLIVE/Regression">Regression Testing</Link>*/}
-                                {/*<Link to="/TikTokLIVE/Functional">Functional Testing</Link>*/}
-                                {/*<Link to="/TikTokLIVE/Performance">Performance Testing</Link>*/}
-                                {/*<Link to="/TikTokLIVE/CICD">CI/CD</Link>*/}
-                                {/*<Link to="/TikTokLIVE/Documentation">Documentation</Link>*/}
-                            </div>
-                        )}
-                    </div>
+                    {/*<div*/}
+                    {/*    className="dropdown"*/}
+                    {/*    onMouseEnter={() => setTestMenuOpen(true)}*/}
+                    {/*    onMouseLeave={() => setTestMenuOpen(false)}*/}
+                    {/*>*/}
+                    {/*    <Link to="/TikTokLIVE" className="dropdown-title">TikTok LIVE</Link>*/}
+                    {/*    {testMenuOpen && (*/}
+                    {/*        <div className="dropdown-menu">*/}
+                    {/*            <Link to="/TikTokLIVE/HighConcurrency">High Concurrency</Link>*/}
+                    {/*            /!*<Link to="/TikTokLIVE/Regression">Regression Testing</Link>*!/*/}
+                    {/*            /!*<Link to="/TikTokLIVE/Functional">Functional Testing</Link>*!/*/}
+                    {/*            /!*<Link to="/TikTokLIVE/Performance">Performance Testing</Link>*!/*/}
+                    {/*            /!*<Link to="/TikTokLIVE/CICD">CI/CD</Link>*!/*/}
+                    {/*            /!*<Link to="/TikTokLIVE/Documentation">Documentation</Link>*!/*/}
+                    {/*        </div>*/}
+                    {/*    )}*/}
+                    {/*</div>*/}
 
                     <Link to="/QA">Q&A</Link>
                 </div>
