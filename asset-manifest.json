@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tt_sdet/static/css/main.0842d786.css",
-    "main.js": "/tt_sdet/static/js/main.91258880.js",
+    "main.css": "/tt_sdet/static/css/main.07a015c8.css",
+    "main.js": "/tt_sdet/static/js/main.f43096ac.js",
     "static/media/uptrillion_cloud.png": "/tt_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/live_ios.png": "/tt_sdet/static/media/live_ios.57aede5e515885fd102a.png",
     "static/media/live_pc.PNG": "/tt_sdet/static/media/live_pc.d96c1d264a24898b7eff.PNG",
@@ -22,7 +22,6 @@
     "static/media/regression_inventory_plan.PNG": "/tt_sdet/static/media/regression_inventory_plan.bad9a95bc0059b9aa7f4.PNG",
     "static/media/Document_bugTicket.PNG": "/tt_sdet/static/media/Document_bugTicket.a66d68692d7676bdf505.PNG",
     "static/media/uptrillion_sales1.png": "/tt_sdet/static/media/uptrillion_sales1.d056e89f8535395285a6.png",
-    "static/media/sd.PNG": "/tt_sdet/static/media/sd.e8ccee0a655820fecf66.PNG",
     "static/media/uptrillion_sales2.png": "/tt_sdet/static/media/uptrillion_sales2.4f1c9a76d6dbe4c01960.png",
     "static/media/regression_Approach.PNG": "/tt_sdet/static/media/regression_Approach.ce66b84390816f550136.PNG",
     "static/media/Document_plan2.PNG": "/tt_sdet/static/media/Document_plan2.24a2befbd3286b099a82.PNG",
@@ -30,9 +29,11 @@
     "static/media/uptrillion_payment2.png": "/tt_sdet/static/media/uptrillion_payment2.c8f74dab6d8e16ba362c.png",
     "static/media/Document_bug.PNG": "/tt_sdet/static/media/Document_bug.3f78358b92610f77cafc.PNG",
     "static/media/Test Plan0.png": "/tt_sdet/static/media/Test Plan0.ef9d3ce8bcae1411089d.png",
+    "static/media/sd.PNG": "/tt_sdet/static/media/sd.e16abc34e1e850613ec9.PNG",
     "static/media/testprotocolDiagram.png": "/tt_sdet/static/media/testprotocolDiagram.49ea4c74a75bb2862b38.png",
     "static/media/testmethodDiagram.png": "/tt_sdet/static/media/testmethodDiagram.4f4ce76d09da19f6bbe9.png",
     "static/media/Document_report1.PNG": "/tt_sdet/static/media/Document_report1.b5c9b83d8289f919b43c.PNG",
+    "static/media/logo-broadpos.PNG": "/tt_sdet/static/media/logo-broadpos.cbd33e1c9be2c08766a3.PNG",
     "static/media/uptrillion_payment.png": "/tt_sdet/static/media/uptrillion_payment.f232c398ed6f51508829.png",
     "static/media/uptrillion_sales3.png": "/tt_sdet/static/media/uptrillion_sales3.e1f46a3f7256838c6091.png",
     "static/media/uptrillion_inventory.webp": "/tt_sdet/static/media/uptrillion_inventory.1a81092453dd798e5fe0.webp",
@@ -43,15 +44,16 @@
     "static/media/SDETDiagram.PNG": "/tt_sdet/static/media/SDETDiagram.a2f4b7586688bc201b98.PNG",
     "static/media/performanceExcuteDiagram.png": "/tt_sdet/static/media/performanceExcuteDiagram.896ff95589976207112b.png",
     "static/media/testplanDiagram.png": "/tt_sdet/static/media/testplanDiagram.909a979f59a332027565.png",
+    "static/media/POSKet.PNG": "/tt_sdet/static/media/POSKet.cd17e7ba84eca84630db.PNG",
     "static/media/uptrillion_d135.jpg": "/tt_sdet/static/media/uptrillion_d135.b11d4ba5262acafa3bfa.jpg",
     "static/media/ttlive_sd.PNG": "/tt_sdet/static/media/ttlive_sd.97471218589aa3bfd7cd.PNG",
     "static/media/logo-android.png": "/tt_sdet/static/media/logo-android.e151e0c4ac0d437659d8.png",
     "index.html": "/tt_sdet/index.html",
-    "main.0842d786.css.map": "/tt_sdet/static/css/main.0842d786.css.map",
-    "main.91258880.js.map": "/tt_sdet/static/js/main.91258880.js.map"
+    "main.07a015c8.css.map": "/tt_sdet/static/css/main.07a015c8.css.map",
+    "main.f43096ac.js.map": "/tt_sdet/static/js/main.f43096ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.0842d786.css",
-    "static/js/main.91258880.js"
+    "static/css/main.07a015c8.css",
+    "static/js/main.f43096ac.js"
   ]
 }
