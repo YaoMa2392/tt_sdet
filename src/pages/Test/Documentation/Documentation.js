@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import {motion} from "framer-motion";
 import "./Documentation.css";
-import documentPlan from "../../../assets/Test Plan0.PNG";
+import documentPlan from "../../../assets/Test_Plan_0.PNG";
 import documentPlan2 from "../../../assets/Document_plan2.PNG";
 import documentBug from "../../../assets/Document_bug.PNG";
 import documentBugTicket from "../../../assets/Document_bugTicket.PNG";
