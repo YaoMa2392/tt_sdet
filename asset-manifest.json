@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/tt_sdet/static/css/main.07a015c8.css",
-    "main.js": "/tt_sdet/static/js/main.f43096ac.js",
+    "main.css": "/tt_sdet/static/css/main.0ec300f3.css",
+    "main.js": "/tt_sdet/static/js/main.e3a23f24.js",
     "static/media/uptrillion_cloud.png": "/tt_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
-    "static/media/live_ios.png": "/tt_sdet/static/media/live_ios.57aede5e515885fd102a.png",
-    "static/media/live_pc.PNG": "/tt_sdet/static/media/live_pc.d96c1d264a24898b7eff.PNG",
+    "static/media/pos_homepage.jpg": "/tt_sdet/static/media/pos_homepage.441a0c854b3b2565e0d0.jpg",
+    "static/media/pos_input_card.jpg": "/tt_sdet/static/media/pos_input_card.89a0435e776982342d6b.jpg",
+    "static/media/pos_input_number.jpg": "/tt_sdet/static/media/pos_input_number.f3e864206f7133787b77.jpg",
     "static/media/uptrillion_inventory1.png": "/tt_sdet/static/media/uptrillion_inventory1.a4c18815c0fa182bbdf4.png",
     "static/media/regression_inventory.png": "/tt_sdet/static/media/regression_inventory.4ed16e7abf0a5d19cd66.png",
     "static/media/uptrillion_inventory2.png": "/tt_sdet/static/media/uptrillion_inventory2.90da2b091c589d6709f1.png",
@@ -46,14 +47,15 @@
     "static/media/testplanDiagram.png": "/tt_sdet/static/media/testplanDiagram.909a979f59a332027565.png",
     "static/media/POSKet.PNG": "/tt_sdet/static/media/POSKet.cd17e7ba84eca84630db.PNG",
     "static/media/uptrillion_d135.jpg": "/tt_sdet/static/media/uptrillion_d135.b11d4ba5262acafa3bfa.jpg",
-    "static/media/ttlive_sd.PNG": "/tt_sdet/static/media/ttlive_sd.97471218589aa3bfd7cd.PNG",
     "static/media/logo-android.png": "/tt_sdet/static/media/logo-android.e151e0c4ac0d437659d8.png",
+    "static/media/a920.jpg": "/tt_sdet/static/media/a920.b34628926ed4e30ee15b.jpg",
+    "static/media/transaction-image.webp": "/tt_sdet/static/media/transaction-image.c1b3884040467a0e58d8.webp",
     "index.html": "/tt_sdet/index.html",
-    "main.07a015c8.css.map": "/tt_sdet/static/css/main.07a015c8.css.map",
-    "main.f43096ac.js.map": "/tt_sdet/static/js/main.f43096ac.js.map"
+    "main.0ec300f3.css.map": "/tt_sdet/static/css/main.0ec300f3.css.map",
+    "main.e3a23f24.js.map": "/tt_sdet/static/js/main.e3a23f24.js.map"
   },
   "entrypoints": [
-    "static/css/main.07a015c8.css",
-    "static/js/main.f43096ac.js"
+    "static/css/main.0ec300f3.css",
+    "static/js/main.e3a23f24.js"
   ]
 }
