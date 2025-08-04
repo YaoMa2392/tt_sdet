@@ -100,14 +100,14 @@ const AboutMe = () => {
                             <strong>Experience:</strong> 2 YOE as SDET, 1 YOE as SDE; M.S. in CS @ NYU Courant.
                         </p>
                         <p className="section-text">
-                            <strong>Test Skills:</strong> Functional, Automation Frameworks, Performance, API.
+                            <strong>Test Skills:</strong> Function, UI, Security, Performance, Usability, Compatibility, Localization, Accessibility, Automation Frameworks, API.
                         </p>
                         <p className="section-text">
                             <strong>Programming & Tools:</strong> Java, Python, Java, Selenium, Pytest, TestNG, JUnit, Jenkins, GitHub Actions.
                         </p>
-                        <p className="section-text">
-                            <strong>System Experience:</strong> REST APIs, microservices, Redis, Kafka, Docker, Kubernetes.
-                        </p>
+                        {/*<p className="section-text">*/}
+                        {/*    <strong>System Experience:</strong> REST APIs, microservices, Redis, Kafka, Docker, Kubernetes.*/}
+                        {/*</p>*/}
                         <p className="section-text">
                             <strong>CI/CD & Collaboration:</strong> Jira, Confluence, PR reviews, release validation & feedback loop.
                         </p>
