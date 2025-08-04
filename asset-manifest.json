@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tt_sdet/static/css/main.dfa0b831.css",
-    "main.js": "/tt_sdet/static/js/main.0ea2ec4d.js",
+    "main.css": "/tt_sdet/static/css/main.6ffb649f.css",
+    "main.js": "/tt_sdet/static/js/main.d0e53d81.js",
     "static/media/uptrillion_cloud.png": "/tt_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/pos_homepage.jpg": "/tt_sdet/static/media/pos_homepage.441a0c854b3b2565e0d0.jpg",
     "static/media/pos_input_card.jpg": "/tt_sdet/static/media/pos_input_card.89a0435e776982342d6b.jpg",
@@ -28,20 +28,20 @@
     "static/media/Document_plan2.PNG": "/tt_sdet/static/media/Document_plan2.24a2befbd3286b099a82.PNG",
     "static/media/regression_ObjSco.PNG": "/tt_sdet/static/media/regression_ObjSco.e9bb015b44769d008f82.PNG",
     "static/media/uptrillion_payment2.png": "/tt_sdet/static/media/uptrillion_payment2.c8f74dab6d8e16ba362c.png",
-    "static/media/Document_bug.PNG": "/tt_sdet/static/media/Document_bug.3f78358b92610f77cafc.PNG",
-    "static/media/Test Plan0.png": "/tt_sdet/static/media/Test Plan0.ef9d3ce8bcae1411089d.png",
     "static/media/sd.PNG": "/tt_sdet/static/media/sd.e16abc34e1e850613ec9.PNG",
     "static/media/testprotocolDiagram.png": "/tt_sdet/static/media/testprotocolDiagram.49ea4c74a75bb2862b38.png",
     "static/media/testmethodDiagram.png": "/tt_sdet/static/media/testmethodDiagram.4f4ce76d09da19f6bbe9.png",
-    "static/media/Document_report1.PNG": "/tt_sdet/static/media/Document_report1.b5c9b83d8289f919b43c.PNG",
+    "static/media/Document_bug.PNG": "/tt_sdet/static/media/Document_bug.23c82d46948704945e58.PNG",
     "static/media/logo-broadpos.PNG": "/tt_sdet/static/media/logo-broadpos.cbd33e1c9be2c08766a3.PNG",
     "static/media/uptrillion_payment.png": "/tt_sdet/static/media/uptrillion_payment.f232c398ed6f51508829.png",
     "static/media/uptrillion_sales3.png": "/tt_sdet/static/media/uptrillion_sales3.e1f46a3f7256838c6091.png",
     "static/media/uptrillion_inventory.webp": "/tt_sdet/static/media/uptrillion_inventory.1a81092453dd798e5fe0.webp",
+    "static/media/Test_Plan_0.PNG": "/tt_sdet/static/media/Test_Plan_0.c7a69fafa1582dd37b19.PNG",
     "static/media/test_diagram.PNG": "/tt_sdet/static/media/test_diagram.6b16ff0bb15ea436f2e3.PNG",
     "static/media/testTypesDiagram.PNG": "/tt_sdet/static/media/testTypesDiagram.53e2ca3a3178062d49a3.PNG",
     "static/media/JMeterReport.png": "/tt_sdet/static/media/JMeterReport.aea4d277af3efc66f3e1.png",
     "static/media/cicdDiagram.png": "/tt_sdet/static/media/cicdDiagram.617ede12121b055425d3.png",
+    "static/media/Document_report1.PNG": "/tt_sdet/static/media/Document_report1.2724c82ee6641ed08e2c.PNG",
     "static/media/SDETDiagram.PNG": "/tt_sdet/static/media/SDETDiagram.a2f4b7586688bc201b98.PNG",
     "static/media/performanceExcuteDiagram.png": "/tt_sdet/static/media/performanceExcuteDiagram.896ff95589976207112b.png",
     "static/media/testplanDiagram.png": "/tt_sdet/static/media/testplanDiagram.909a979f59a332027565.png",
@@ -51,11 +51,11 @@
     "static/media/a920.jpg": "/tt_sdet/static/media/a920.b34628926ed4e30ee15b.jpg",
     "static/media/transaction-image.webp": "/tt_sdet/static/media/transaction-image.c1b3884040467a0e58d8.webp",
     "index.html": "/tt_sdet/index.html",
-    "main.dfa0b831.css.map": "/tt_sdet/static/css/main.dfa0b831.css.map",
-    "main.0ea2ec4d.js.map": "/tt_sdet/static/js/main.0ea2ec4d.js.map"
+    "main.6ffb649f.css.map": "/tt_sdet/static/css/main.6ffb649f.css.map",
+    "main.d0e53d81.js.map": "/tt_sdet/static/js/main.d0e53d81.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfa0b831.css",
-    "static/js/main.0ea2ec4d.js"
+    "static/css/main.6ffb649f.css",
+    "static/js/main.d0e53d81.js"
   ]
 }
