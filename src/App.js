@@ -20,6 +20,7 @@ import Performance from "./pages/Test/Performance/Performance";
 import QA from "./pages/Q&A/QA";
 import TikTokLIVE from "./pages/TikTok LIVE/TikTokLIVE";
 import HighConcurrency from "./pages/TikTok LIVE/LivePerformance/HighConcurrency";
+import POSTransaction from "./pages/POSTransaction/POSTransaction";
 
 const routes = [
     {
@@ -79,13 +80,17 @@ const routes = [
         path: "/Test/Documentation",
         element: <Documentation/>,
     },
+    // {
+    //     path: "/TikTokLIVE",
+    //     element: <TikTokLIVE/>,
+    // },
+    // {
+    //     path: "/TikTokLIVE/HighConcurrency",
+    //     element: <HighConcurrency/>,
+    // },
     {
-        path: "/TikTokLIVE",
-        element: <TikTokLIVE/>,
-    },
-    {
-        path: "/TikTokLIVE/HighConcurrency",
-        element: <HighConcurrency/>,
+        path: "/POSTransaction",
+        element: <POSTransaction/>,
     },
     {
         path: "/QA",
