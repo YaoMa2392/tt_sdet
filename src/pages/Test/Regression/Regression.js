@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import {motion} from "framer-motion";
 import "./Regression.css";
-import testplan from "../../../assets/Test Plan0.PNG";
+// import testplan from "../../../assets/Test Plan0.PNG";
+import testplan from "../../../assets/Test Plan0.PNG"
 import regressionAnalytics from "../../../assets/regression_analytics.png";
 import regressionInventory from "../../../assets/regression_inventory.png";
 import regressionObj from "../../../assets/regression_ObjSco.PNG";
