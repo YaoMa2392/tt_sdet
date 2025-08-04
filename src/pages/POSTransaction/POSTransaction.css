@@ -9,6 +9,24 @@
     background-position: center;
     min-height: 100vh;
 }
+
+.title-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.pos-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
 .pos-showcase {
     width: 100%;
     max-width: 1200px;
