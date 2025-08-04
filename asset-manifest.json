@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tt_sdet/static/css/main.dfa0b831.css",
-    "main.js": "/tt_sdet/static/js/main.c66ac531.js",
+    "main.js": "/tt_sdet/static/js/main.0ea2ec4d.js",
     "static/media/uptrillion_cloud.png": "/tt_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/pos_homepage.jpg": "/tt_sdet/static/media/pos_homepage.441a0c854b3b2565e0d0.jpg",
     "static/media/pos_input_card.jpg": "/tt_sdet/static/media/pos_input_card.89a0435e776982342d6b.jpg",
@@ -52,10 +52,10 @@
     "static/media/transaction-image.webp": "/tt_sdet/static/media/transaction-image.c1b3884040467a0e58d8.webp",
     "index.html": "/tt_sdet/index.html",
     "main.dfa0b831.css.map": "/tt_sdet/static/css/main.dfa0b831.css.map",
-    "main.c66ac531.js.map": "/tt_sdet/static/js/main.c66ac531.js.map"
+    "main.0ea2ec4d.js.map": "/tt_sdet/static/js/main.0ea2ec4d.js.map"
   },
   "entrypoints": [
     "static/css/main.dfa0b831.css",
-    "static/js/main.c66ac531.js"
+    "static/js/main.0ea2ec4d.js"
   ]
 }
