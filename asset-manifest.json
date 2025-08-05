@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tt_sdet/static/css/main.6ffb649f.css",
-    "main.js": "/tt_sdet/static/js/main.d0e53d81.js",
+    "main.js": "/tt_sdet/static/js/main.24a83b5c.js",
     "static/media/uptrillion_cloud.png": "/tt_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/pos_homepage.jpg": "/tt_sdet/static/media/pos_homepage.441a0c854b3b2565e0d0.jpg",
     "static/media/pos_input_card.jpg": "/tt_sdet/static/media/pos_input_card.89a0435e776982342d6b.jpg",
@@ -25,12 +25,12 @@
     "static/media/uptrillion_sales1.png": "/tt_sdet/static/media/uptrillion_sales1.d056e89f8535395285a6.png",
     "static/media/uptrillion_sales2.png": "/tt_sdet/static/media/uptrillion_sales2.4f1c9a76d6dbe4c01960.png",
     "static/media/regression_Approach.PNG": "/tt_sdet/static/media/regression_Approach.ce66b84390816f550136.PNG",
-    "static/media/Document_plan2.PNG": "/tt_sdet/static/media/Document_plan2.24a2befbd3286b099a82.PNG",
     "static/media/regression_ObjSco.PNG": "/tt_sdet/static/media/regression_ObjSco.e9bb015b44769d008f82.PNG",
     "static/media/uptrillion_payment2.png": "/tt_sdet/static/media/uptrillion_payment2.c8f74dab6d8e16ba362c.png",
     "static/media/sd.PNG": "/tt_sdet/static/media/sd.e16abc34e1e850613ec9.PNG",
     "static/media/testprotocolDiagram.png": "/tt_sdet/static/media/testprotocolDiagram.49ea4c74a75bb2862b38.png",
     "static/media/testmethodDiagram.png": "/tt_sdet/static/media/testmethodDiagram.4f4ce76d09da19f6bbe9.png",
+    "static/media/Doc_Plan2.PNG": "/tt_sdet/static/media/Doc_Plan2.ba58c74c08330e7381a9.PNG",
     "static/media/Document_bug.PNG": "/tt_sdet/static/media/Document_bug.23c82d46948704945e58.PNG",
     "static/media/logo-broadpos.PNG": "/tt_sdet/static/media/logo-broadpos.cbd33e1c9be2c08766a3.PNG",
     "static/media/uptrillion_payment.png": "/tt_sdet/static/media/uptrillion_payment.f232c398ed6f51508829.png",
@@ -52,10 +52,10 @@
     "static/media/transaction-image.webp": "/tt_sdet/static/media/transaction-image.c1b3884040467a0e58d8.webp",
     "index.html": "/tt_sdet/index.html",
     "main.6ffb649f.css.map": "/tt_sdet/static/css/main.6ffb649f.css.map",
-    "main.d0e53d81.js.map": "/tt_sdet/static/js/main.d0e53d81.js.map"
+    "main.24a83b5c.js.map": "/tt_sdet/static/js/main.24a83b5c.js.map"
   },
   "entrypoints": [
     "static/css/main.6ffb649f.css",
-    "static/js/main.d0e53d81.js"
+    "static/js/main.24a83b5c.js"
   ]
 }
