@@ -1,10 +1,11 @@
 .about-me-container {
-    font-family: "Roboto", Sans-serif;
-    color: #FFFFFF;
-    background-color: #000000;
+    font-family: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    color: #1F1F1F;
+    background-color: #F5F7FA;
     min-height: 100vh;
 }
 
+/* 页面内容居中 */
 .page-content {
     width: 100%;
     max-width: 1200px;
@@ -21,18 +22,19 @@
     align-items: center;
     text-align: center;
     position: relative;
+    /*background: linear-gradient(180deg, #E6F4FF 0%, #F5F7FA 100%);*/
 }
 
 .aboutme-hero-title {
-    font-size: 6em;
+    font-size: 5em;
     position: absolute;
     top: 30%;
     left: 36%;
-    /*background: linear-gradient(90deg, #FE2C55, #25F4EE); !* 粉到蓝渐变 *!*/
-    background: #FFFFFF;
+    /*background: linear-gradient(90deg, #1677FF, #40A9FF);*/
+    background: #1f1f1f;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .hero-section > .word-cloud {
@@ -41,44 +43,45 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.2;
     max-width: 80%;
 }
 
+/* 内容区 */
 .content-section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px;
     position: relative;
-    font-family: -apple-system;
+    font-family: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
 }
 
+/* 标题 */
 .section-title {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 10px;
-    /*background: linear-gradient(90deg, #FE2C55, #25F4EE);*/
-    background: #FFFFFF;
+    background: linear-gradient(90deg, #1677FF, #40A9FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
+/* 正文文字 */
 .section-text {
     font-size: 1.2rem;
-    color: #FFFFFF;
-    transition: color 0.3s ease;
+    color: #4B4B4B;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* 可选 Hover 效果 */
+/* Hover 效果 */
 .section-text:hover {
     cursor: default;
-    color: #FE2C55;
-    transform: scale(1.05);
-    /*text-shadow: 0 0 10px rgba(37, 244, 238, 0.7);*/
-    /*text-shadow: 0 0 10px rgba(254, 44, 85, 0.5);*/
+    color: #1677FF;
+    transform: scale(1.03);
 }
 
+/* 淡入动画 */
 .fade-section {
     margin-bottom: 50px;
     opacity: 0;
@@ -107,6 +110,7 @@
     }
 }
 
+/* Logo 区 */
 .project-logo-row {
     display: flex;
     flex-wrap: wrap;
@@ -119,28 +123,23 @@
 .title-bg-bar {
     width: 100px;
     height: 5px;
-    background-color: #FE2C55;
+    background-color: #1677FF;
     margin: 0 auto;
+    border-radius: 3px;
 }
 
-.logo-uptrillion {
-    height: 60px;
-    width: auto;
+.logo-uptrillion,
+.logo-50,
+.logo-40 {
     object-fit: contain;
 }
 
-.logo-50{
-    height: 50px;
-    width: auto;
-    object-fit: contain;
-}
-.logo-40{
-    height: 40px;
-    width: auto;
-    object-fit: contain;
-}
+.logo-uptrillion { height: 60px; }
+.logo-50 { height: 50px; }
+.logo-40 { height: 40px; }
 
-
+/* Logo Hover 效果 */
 .project-logo-row img:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 6px rgba(22, 119, 255, 0.3));
 }

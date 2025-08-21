@@ -77,10 +77,11 @@ const WordCloud = () => {
                         className={`word ${isHovered ? "hovered" : ""}`}
                         style={{
                             fontSize,
-                            color: isHovered ? "#FE2C55" : "#25F4EE",
-                            transform: `${getWordPosition(index).transform} ${
-                                isHovered ? "scale(1.5)" : "scale(1)"
-                            }`,
+                            color: isHovered ? "#1677FF" : "#40a9ff",
+                            transform: `${getWordPosition(index).transform} ${isHovered ? "scale(1.6)" : "scale(1)"}`,
+                            textShadow: isHovered
+                                ? "0 0 8px rgba(22,119,255,0.7), 0 0 12px rgba(64,169,255,0.6)"
+                                : "none",
                         }}
                         onMouseEnter={() => handleMouseEnter(word.text)}
                         onMouseLeave={handleMouseLeave}
@@ -92,5 +93,4 @@ const WordCloud = () => {
         </div>
     );
 };
-
 export default WordCloud;

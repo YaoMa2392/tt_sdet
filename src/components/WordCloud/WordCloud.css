@@ -2,31 +2,32 @@
 .word-cloud {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center alignment */
+    justify-content: center;
     position: relative;
-    width: 100%; /* Set width to 100% to ensure it does not affect page layout */
-    max-width: 600px; /* Maximum width to avoid taking up too much space */
-    height: 50vh; /* Set a more suitable height */
+    width: 100%;
+    max-width: 600px;
+    height: 50vh;
     margin-top: 5%;
-    margin-left: auto; /* Center */
-    margin-right: auto; /* Center */
-    /*border: 2px solid red; /* Add red border */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Basic style for each word */
 .word {
     cursor: pointer;
     font-weight: bold;
-    position: absolute; /* Allow each word to float freely */
-    transition: transform 0.3s, color 0.3s, box-shadow 0.3s;
+    position: absolute;
+    font-family: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    color: #1f1f1f;
+    transition: transform 0.3s, color 0.3s, box-shadow 0.3s, text-shadow 0.3s;
 }
 
+/* Hover / Highlight effect */
 .word.hovered {
-    color: #25F4EE; /* TikTok 青蓝 */
-    transform: scale(1.7);
-    box-shadow: 0 0 30px rgba(37, 244, 238, 0.6), 0 0 40px rgba(254, 44, 85, 0.5);
+    color: #1677FF; /* 支付宝蓝 */
+    transform: scale(1.6);
+    /*box-shadow: 0 0 20px rgba(22, 119, 255, 0.5), 0 0 30px rgba(64, 169, 255, 0.4);*/
     text-shadow:
-            0 0 10px rgba(37, 244, 238, 0.8),
-            0 0 15px rgba(254, 44, 85, 0.7);
+            0 0 8px rgba(22, 119, 255, 0.7),
+            0 0 12px rgba(64, 169, 255, 0.6);
 }
-

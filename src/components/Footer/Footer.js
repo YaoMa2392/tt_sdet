@@ -1,15 +1,14 @@
 import React from 'react';
 import './Footer.css';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                <img
-                    src="https://lf16-recruit-overseas-cdn-sg-sign.larksuite.com/obj/recruit-overseas-flie-sg/32961959/495010931/1519231217/7e84759d5008072e31da9a2402accc9122587086-7621x2341.png?x-expires=1755046808&x-signature=bTEppoDalw6swFAls2%2FvUhkVNNE%3D"
-                    alt="logo"
-                    style={{ width: "200px", height: "auto" }}
-                />
+                <Link to="/tt_sdet" className="navbar-logo">
+                    Alipay
+                </Link>
 
                 {/* Right side: Contact Info */}
                 <div className="footer-contact">

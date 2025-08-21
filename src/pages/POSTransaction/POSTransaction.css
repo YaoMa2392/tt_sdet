@@ -1,15 +1,15 @@
 /* Global Styles */
 .pos-container {
-    font-family: -apple-system, sans-serif;
-    background: #000000;
-    color: #FFFFFF;
-    /*background: linear-gradient(180deg, #407EC9 0%, #1D3557 100%);*/
+    font-family: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    background: #f5f7fa; /* 支付宝浅灰背景 */
+    color: #1f1f1f;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
 }
 
+/* Title Section */
 .title-section {
     height: 100vh;
     display: flex;
@@ -21,98 +21,118 @@
 }
 
 .pos-title {
-    font-size: 4rem;
-    font-weight: bold;
-    color: #FFFFFF;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1677FF; /* 支付宝蓝 */
     margin-left: 20px;
 }
 
+/* Showcase Section */
 .pos-showcase {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 20px;
-    font-family: "Roboto", Sans-serif;
 }
 
-.pos-section {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.design-product-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 80px;
-}
-
-
-.pos-description {
-    flex: 1;
-    font-size: 1.2rem;
-    line-height: 1.7;
-    color: #FFFFFF;
-}
-
-.pos-pic {
-    width: auto;
-    height: 700px;
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-.pos-image-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 80px;
-}
-
-
-
-.dollar-image{
-    width: 100px;
-    height: auto;
-}
-
-
-.pos-image {
-    flex: 1;
-    width: 400px; /* Set fixed width here */
-    height: auto;
-    max-width: 100%; /* Ensure it does not exceed parent container */
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.pos-image {
-    width: 360px; /* Set fixed width */
-    height: auto;
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .pos-image {
-        width: 100%; /* Adapt to small screens */
-        max-width: 300px; /* Limit maximum width */
-    }
-}
-
+/* POS Section Layouts */
+.pos-section,
+.design-product-section,
+.pos-image-section,
 .pos-product-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
     margin-top: 80px;
+}
+
+
+
+
+.pos-description {
+    flex: 1;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #4b4b4b;
+}
+
+.pos-pic,
+.pospayment-image{
+    width: 360px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(22, 119, 255, 0.1); /* 蓝色阴影更科技感 */
+    /*cursor: pointer;*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.alipos-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1100px;  /* ✅ 控制整体宽度 */
+    margin: 0 auto;     /* ✅ 居中 */
+    padding: 40px 20px; /* ✅ 给点内边距，避免贴边 */
+}
+
+.alipos-image{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(22, 119, 255, 0.1); /* 蓝色阴影更科技感 */
+    /*cursor: pointer;*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pos-image {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(22, 119, 255, 0.1); /* 蓝色阴影更科技感 */
+    /*cursor: pointer;*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pospayment-image:hover,
+.pos-pic:hover,
+.pos-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 20px rgba(22, 119, 255, 0.2);
+}
+
+.dollar-image {
+    width: 100px;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pos-image,
+    .pos-pic {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .pos-section,
+    .design-product-section,
+    .pos-image-section,
+    .pos-product-section {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .pos-title {
+        font-size: 2.5rem;
+    }
+
+    .pos-description {
+        font-size: 1rem;
+    }
 }

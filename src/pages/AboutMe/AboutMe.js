@@ -3,9 +3,9 @@ import React from "react";
 import {motion} from "framer-motion";
 import WordCloud from "../../components/WordCloud/WordCloud";
 import "./AboutMe.css";
+import uptrillion from "../../assets/Uptrillion_logo.png";
 import poslink from "../../assets/logo-poslink.PNG";
 import posket from "../../assets/POSKet.PNG";
-import android from "../../assets/logo-android.png";
 import odoo from "../../assets/logo-odoo.png";
 import broadpos from "../../assets/logo-broadpos.PNG";
 
@@ -48,7 +48,7 @@ const AboutMe = () => {
                         <div className="project-logo-row">
                             <img
                                 className="logo-uptrillion"
-                                src="https://www.uptrillion.com/wp-content/uploads/2023/06/uptrillion_logo_5.3.23_Gannon-16.png"
+                                src={uptrillion}
                                 alt="UpTrillion"
                             />
                             <img
@@ -56,16 +56,17 @@ const AboutMe = () => {
                                 src={posket}
                                 alt="POSket"
                             />
+
+                            <img
+                                className="logo-50"
+                                src={broadpos}
+                                alt="broadpos"
+                            />
                             <img
                                 className="logo-40"
                                 src={poslink}
                                 alt="POSLink"
                             />
-                            {/*<img*/}
-                            {/*    className="logo-40"*/}
-                            {/*    src={broadpos}*/}
-                            {/*    alt="broadpos"*/}
-                            {/*/>*/}
                             <img
                                 className="logo-40"
                                 src="https://www.tsys.com/-/media/project/gpn/tsys/tsys/site-logo/logoprimary.svg?rev=6a776fcd04694486b1e078229c8f33ee"
@@ -81,11 +82,11 @@ const AboutMe = () => {
                                 src="https://lirp.cdn-website.com/d09ffce6/dms3rep/multi/opt/front+txt+logo+purple-192w.png"
                                 alt="Front"
                             />
-                            <img
-                                className="logo-40"
-                                src={android}
-                                alt="Android"
-                            />
+                            {/*<img*/}
+                            {/*    className="logo-40"*/}
+                            {/*    src={android}*/}
+                            {/*    alt="Android"*/}
+                            {/*/>*/}
                             <img
                                 className="logo-40"
                                 src={odoo}
@@ -117,13 +118,14 @@ const AboutMe = () => {
                         <h2 className="section-title">Key Achievements</h2>
 
                         <p className="section-text">
-                            <strong>90% Test Time Reduction:</strong> Automated regression and integration tests across modules, reducing validation time from 4–5 days to 4- hours.
+                            <strong>90% Test Time Reduction:</strong> Automated regression and integration tests, cutting validation from 4–5 days to 4 hours.
                         </p>
                         <p className="section-text">
-                            <strong>Cross-Team Platform Contributor:</strong> Built shared test utilities and workflows to support backend/frontend pipelines and improve coverage.
+                            <strong>Cross-Team Platform Contributor:</strong> Collaborated with PM and dev teams during design reviews, built shared test tools/workflows, identified risks (API reliability, transaction retries), and improved coverage and architecture testability.
+
                         </p>
                         <p className="section-text">
-                            <strong>Improved Release Stability:</strong> Led validation and CI checks for QA-UAT-PROD app releases; ensured zero-blocker rollout for 12+ versions.
+                            <strong>Improved Release Stability for 12+ Versions:</strong> Led validation and CI checks for app releases, ensuring zero-blocker rollouts.
                         </p>
                         <p className="section-text">
                             <strong>Trained 50+ Team Members:</strong> Led test reviews, onboarding, and debugging sessions across global QA/dev teams.

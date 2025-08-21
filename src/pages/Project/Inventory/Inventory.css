@@ -1,6 +1,6 @@
 /* Global Styles */
 .inventory-page-wrapper {
-    background-color: #66d3fc;
+    background-color: #FFFFFF;
     width: 100%;
     min-height: 100vh;
     padding: 60px 0; /* 可调节上下距离 */
@@ -32,7 +32,7 @@
 .title-bg-bar {
     width: 100px;
     height: 5px;
-    background-color: #FE2C55;
+    background-color: #1677FF;
     margin: 0 auto;
 }
 

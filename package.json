@@ -1,7 +1,7 @@
 {
-  "name": "tt_sdet",
+  "name": "yao_sdet",
   "version": "0.1.0",
-  "homepage": "https://yaoma2392.github.io/tt_sdet/",
+  "homepage": "https://yaoma2392.github.io/home/",
   "private": true,
   "dependencies": {
     "@ant-design/charts": "^2.2.6",

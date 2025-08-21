@@ -260,7 +260,7 @@ export default function CICD() {
                         animate={{opacity: 1, x: 0}}
                         transition={{duration: 1, delay: 0.3}}
                     >
-                        <p><strong>Key Benefits of Genkins:</strong></p>
+                        <p><strong>Key Benefits of Jenkins:</strong></p>
                         <ul>
                             <li><strong>Flexibility and Customization: </strong>Jenkins is
                                 highly customizable, with a wide range of plugins, enabling tailored CI/CD pipelines for

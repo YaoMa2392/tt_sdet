@@ -1,16 +1,15 @@
-
 .footer {
-  background: black;
-  color: #ffffffe6;
-  padding: 20px 0;
+  background: #f5f7fa; /* 浅灰背景 */
+  color: #4b4b4b;
+  padding: 24px 0;
   display: flex;
   justify-content: center;
   opacity: 0;
   animation: fadeIn 2s forwards;
-  font-family: "Roboto", Sans-serif;
+  font-family: "PingFang SC", "Helvetica Neue", Arial, sans-serif;
   flex: 1;
+  /*border-top: 1px solid #e5e5e5; !* 分割线 *!*/
 }
-
 
 @keyframes fadeIn {
   0% {
@@ -30,38 +29,38 @@
   max-width: 1200px;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
-
-/* Contact */
+/* 联系方式 */
 .footer-contact {
   text-align: right;
 }
 
 .footer-contact h4 {
-  margin-bottom: 12px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  color: #ffffffe6;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1f1f1f;
 }
 
 .footer-contact p {
-  margin: 5px 0;
+  margin: 4px 0;
   font-size: 14px;
-  line-height: 24px;
-  color: #ffffffe6;
+  line-height: 22px;
+  color: #595959;
 }
 
 .footer-contact a {
-  color: #ffffffe6;
+  color: #1677FF; /* 支付宝蓝 */
   text-decoration: none;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 22px;
   transition: color 0.3s ease;
 }
 
 .footer-contact a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  color: #40a9ff; /* hover 变浅蓝 */
+  text-shadow: none;
 }
