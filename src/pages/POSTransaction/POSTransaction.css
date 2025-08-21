@@ -111,6 +111,19 @@
     height: auto;
 }
 
+.image-container {
+    display: flex;
+    justify-content: space-between; /* 左右顶格 */
+    align-items: center;           /* 垂直居中 */
+}
+
+.testFlow-image {
+    /* 可选：控制图片大小 */
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .pos-image,

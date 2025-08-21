@@ -17,7 +17,7 @@ import TestDesign from "./pages/Test/TestDesign/TestDesign";
 import Footer from "./components/Footer/Footer";
 import Documentation from "./pages/Test/Documentation/Documentation";
 import Performance from "./pages/Test/Performance/Performance";
-import QA from "./pages/Q&A/QA";
+// import QA from "./pages/Q&A/QA";
 import POSTransaction from "./pages/POSTransaction/POSTransaction";
 
 const routes = [
@@ -82,10 +82,10 @@ const routes = [
         path: "/POSTransaction",
         element: <POSTransaction/>,
     },
-    {
-        path: "/QA",
-        element: <QA/>,
-    },
+    // {
+    //     path: "/QA",
+    //     element: <QA/>,
+    // },
     {
         path: "*", // Catch-all route for not found
         element: <NotFound/>,

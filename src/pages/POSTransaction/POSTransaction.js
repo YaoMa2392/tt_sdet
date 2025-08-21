@@ -11,7 +11,8 @@ import dollar from "../../assets/transaction-image.webp"
 import alipax from "../../assets/payment_alipayPOS.PNG"
 import alipaxQR from "../../assets/payment_alipayA920QR.PNG"
 import alipaxScan from "../../assets/payment_alipayA920Scan.PNG"
-import order from "../../assets/resautrant_order.jpg";
+// import order from "../../assets/resautrant_order.jpg";
+import testFlow from "../../assets/payment_posTestFlow.PNG";
 
 export default function POSTransaction() {
     const [inView, setInView] = useState(false);
@@ -55,6 +56,15 @@ export default function POSTransaction() {
                     POS Payment
                 </motion.h1>
             </section>
+            <TitleBar title="POS Payment Test Flow"/>
+            <div className="image-container">
+                <img
+                    src={testFlow}
+                    alt="testFlow"
+                    className="testFlow-image"
+                />
+            </div>
+
             <TitleBar title="Functional Flow"/>
             <section className="alipos-section">
                 <motion.div

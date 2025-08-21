@@ -89,7 +89,7 @@ const Navbar = () => {
                     {/*    )}*/}
                     {/*</div>*/}
 
-                    <Link to="/QA">Q&A</Link>
+                    {/*<Link to="/QA">Q&A</Link>*/}
                 </div>
             </div>
         </div>
