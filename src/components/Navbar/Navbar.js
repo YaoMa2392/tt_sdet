@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import alipay from "../../assets/logo_alipay.png";
 
 const Navbar = () => {
     const [projectMenuOpen, setProjectMenuOpen] = useState(false);
