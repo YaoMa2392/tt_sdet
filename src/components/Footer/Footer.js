@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                <Link to="/tt_sdet" className="navbar-logo">
+                <Link to="/yao_sdet" className="navbar-logo">
                     Alipay
                 </Link>
 

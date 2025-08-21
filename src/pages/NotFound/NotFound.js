@@ -10,7 +10,7 @@ class NotFound extends React.Component {
                 title="404"
                 subTitle="Sorry, the page you visited does not exist."
                 extra={
-                    <Link to="/home">
+                    <Link to="/yao_sdet">
                         <Button type="primary">Back to Home</Button>
                     </Link>
                 }

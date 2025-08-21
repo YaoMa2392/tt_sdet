@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbar-container">
                 {/* 左侧 Logo */}
-                <Link to="/home" className="navbar-logo">
+                <Link to="/yao_sdet" className="navbar-logo">
                     Alipay
                 </Link>
 

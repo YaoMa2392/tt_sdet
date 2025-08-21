@@ -22,7 +22,7 @@ import POSTransaction from "./pages/POSTransaction/POSTransaction";
 
 const routes = [
     {
-        path: "/home",
+        path: "/yao_sdet",
         // element: <Presentation/>,
         element: <AboutMe/>,
     },
