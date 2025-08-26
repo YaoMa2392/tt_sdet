@@ -8,6 +8,7 @@ import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import testTypes from "../../assets/testTypesDiagram.PNG";
 import sd from "../../assets/sd.PNG";
+import posSystemProcess from "../../assets/POSSAAS.PNG";
 
 
 const FadeInSection = ({children}: { children: React.ReactNode }) => {
@@ -201,6 +202,18 @@ export default function Project() {
                     </Link>
                 </div>
             </section>
+
+            {/* Project Details */}
+            <section className="content-section">
+                <FadeInSection>
+                    <h2 className="project-section-title center-title">How a POS System Work</h2>
+                </FadeInSection>
+
+                <div className="project-image-container-testTpes">
+                    <img src={posSystemProcess} alt="Project screenshot 2" className="project-image-testTypes"/>
+                </div>
+            </section>
+
 
             {/* Project Details */}
             <section className="content-section">
