@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/yao_sdet/static/css/main.3c2588aa.css",
-    "main.js": "/yao_sdet/static/js/main.d49b8447.js",
+    "main.js": "/yao_sdet/static/js/main.b5b08447.js",
     "static/media/uptrillion_cloud.png": "/yao_sdet/static/media/uptrillion_cloud.bbb4b7d84d588d77130b.png",
     "static/media/pos_homepage.jpg": "/yao_sdet/static/media/pos_homepage.441a0c854b3b2565e0d0.jpg",
     "static/media/pos_input_card.jpg": "/yao_sdet/static/media/pos_input_card.89a0435e776982342d6b.jpg",
     "static/media/pos_input_number.jpg": "/yao_sdet/static/media/pos_input_number.f3e864206f7133787b77.jpg",
     "static/media/payment_alipayA920Scan.PNG": "/yao_sdet/static/media/payment_alipayA920Scan.39b20c4502f1e284c9fb.PNG",
     "static/media/payment_alipayA920QR.PNG": "/yao_sdet/static/media/payment_alipayA920QR.8f4532ca390f086f8387.PNG",
+    "static/media/POSSAAS.PNG": "/yao_sdet/static/media/POSSAAS.1550daa94bde6b7781f0.PNG",
     "static/media/uptrillion_inventory1.png": "/yao_sdet/static/media/uptrillion_inventory1.a4c18815c0fa182bbdf4.png",
     "static/media/regression_inventory.png": "/yao_sdet/static/media/regression_inventory.4ed16e7abf0a5d19cd66.png",
     "static/media/payment_alipayPOS.PNG": "/yao_sdet/static/media/payment_alipayPOS.53c7cec2275daaf83f0d.PNG",
@@ -56,10 +57,10 @@
     "static/media/transaction-image.webp": "/yao_sdet/static/media/transaction-image.c1b3884040467a0e58d8.webp",
     "index.html": "/yao_sdet/index.html",
     "main.3c2588aa.css.map": "/yao_sdet/static/css/main.3c2588aa.css.map",
-    "main.d49b8447.js.map": "/yao_sdet/static/js/main.d49b8447.js.map"
+    "main.b5b08447.js.map": "/yao_sdet/static/js/main.b5b08447.js.map"
   },
   "entrypoints": [
     "static/css/main.3c2588aa.css",
-    "static/js/main.d49b8447.js"
+    "static/js/main.b5b08447.js"
   ]
 }
